@@ -1,0 +1,11 @@
+.container{
+    position:relative;
+    overflow: hidden;
+    -ms-overflow-style: none;  /* IE 및 Edge */
+    scrollbar-width: none;     /* Firefox */
+  
+    /* Chrome, Safari, Opera */
+    ::-webkit-scrollbar {
+      display: none;
+    }
+}
